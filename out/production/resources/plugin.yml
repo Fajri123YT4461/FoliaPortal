@@ -1,0 +1,15 @@
+name: PortalRegionPlugin
+version: 1.0.0
+main: org.crispynetwork.foliaPortal.PortalRegionPlugin
+api-version: 1.21
+authors: [FirstmediaID]
+description: A plugin that creates portal regions which execute commands.
+commands:
+  portalregion:
+    description: Main command for managing portal regions.
+    usage: /pr <subcommand>
+    aliases: [pr]
+permissions:
+  portalregion.admin:
+    description: Grants access to all administrative portal region commands.
+    default: op
